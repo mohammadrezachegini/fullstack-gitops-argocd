@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/mohammadrezachegini/fullstack-gitops-argocd
-    targetRevision: main
+    targetRevision: master
     path: k8s/overlays/dev
   destination:
     server: https://kubernetes.default.svc
