@@ -1,1 +1,0 @@
-# fullstack-gitops-argocd
