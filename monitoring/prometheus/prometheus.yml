@@ -70,9 +70,3 @@ scrape_configs:
     static_configs:
       - targets: ['argocd-notifications-controller-metrics.argocd.svc.cluster.local:9001']
     metrics_path: '/metrics'
-
-  # Blog backend health
-  - job_name: 'blog-backend-dev'
-    static_configs:
-      - targets: ['blog-backend.blog-dev.svc.cluster.local:3001']
-    metrics_path: '/health'
