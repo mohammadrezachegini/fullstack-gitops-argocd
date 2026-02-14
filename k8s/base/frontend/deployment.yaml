@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: lowyiiii/blog-frontend:latest
+        image: lowyiiii/blog-frontend:71137da
         ports:
         - containerPort: 80
         resources:
